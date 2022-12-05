@@ -23,13 +23,6 @@ def arePermutation(str1, str2):
     return True
 
 
-str1 = input()
-str2 = input()
-if (arePermutation(str1, str2)):
-    print("true")
-else:
-    print("false")
-
 
 
 
@@ -59,8 +52,8 @@ else:
 
 
 #main
-string1 = stdin.readline().strip();
-string2 = stdin.readline().strip();
+str1 = stdin.readline().strip();
+str2 = stdin.readline().strip();
 
 ans = arePermutation(str1, str2)
 
@@ -68,5 +61,4 @@ if ans :
     print('true')
 else :
     print('false')
-
 
